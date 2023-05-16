@@ -28,7 +28,7 @@ export default function ProductCard({ id, price, title, thumbnail, brand }) {
 }
 
 ProductCard.propTypes = {
-  id: PropTypes.string,
+  id: PropTypes.number,
   price: PropTypes.number,
   title: PropTypes.string,
   thumbnail: PropTypes.string,
